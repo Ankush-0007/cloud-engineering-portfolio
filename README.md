@@ -1,6 +1,6 @@
-# 🌩️ Multi-Cloud Certifications – Notes, Projects & Hands-On Learning
+# ☁️ Cloud Engineering Portfolio – AWS, GCP, Notes, Projects & Practice
 
-This repository is my complete learning hub for mastering **AWS** and **Google Cloud** certifications. It contains my structured notes, Python practice, hands-on cloud projects, architecture diagrams, and daily progress as I prepare for Cloud Engineering, Data Engineering, and ML Engineering roles.
+This repository is my complete learning hub for mastering **AWS** and **Google Cloud** certifications. It contains my structured notes, Python practice, hands-on cloud projects, architecture diagrams, Leet/NeetCode practice, and daily progress as I prepare for Cloud Engineering, Data Engineering, and ML Engineering roles.
 
 ---
 
@@ -18,8 +18,8 @@ This repository is my complete learning hub for mastering **AWS** and **Google C
 ## 📘 Certifications I Am Preparing For
 
 ### **Amazon Web Services (AWS)**
-- AWS Cloud Practitioner  
-- AWS Developer Associate  
+- AWS Cloud Practitioner (CLF-C02)  
+- AWS Developer Associate (DVA-C02)  
 
 ### **Google Cloud Platform (GCP)**
 - Google Cloud Digital Leader  
@@ -44,7 +44,7 @@ cloud-engineering-portfolio/
 │
 ├── python-practice/               # Python basics, FastAPI, automation scripts
 ├── projects/                      # Deployable cloud projects (AWS/GCP)
-├── leetcode/                      # Leet/NeetCode practice (DSA)
+├── leetcode/                      # LeetCode/NeetCode practice (DSA)
 │
 └── resources/                     # PDFs, diagrams, reference material
 ```
@@ -65,7 +65,7 @@ cloud-engineering-portfolio/
 
 ## 📖 About This Repository
 
-This repository documents my entire learning journey across multiple cloud ecosystems. Every day, I study from Udemy courses, cloud documentation, and hands-on console labs using AWS & GCP. Along with learning theory, I build **deployable backend APIs**, **ETL data pipelines**, and **ML workflows** using Python and cloud-native services.
+This repository documents my learning journey across multiple cloud ecosystems. Every day, I study from Udemy courses, official documentation, and hands-on console labs using AWS & GCP. Along with learning theory, I build **deployable backend APIs**, **ETL data pipelines**, and **ML workflows** using Python and cloud-native services.
 
 My goal is to build **real-world cloud engineering and data engineering skills**, not just pass exams.
 
@@ -73,15 +73,15 @@ My goal is to build **real-world cloud engineering and data engineering skills**
 
 ## 📅 Daily Learning Structure
 
-Every day I follow this four-part workflow:
+Every day I follow this workflow:
 
 ### 1️⃣ **Git + GitHub**
 - Maintain clean commits  
 - Document notes daily  
-- Track skills consistently  
+- Track progress consistently  
 
 ### 2️⃣ **AWS Study**
-- Udemy AWS Cloud Practitioner & Developer Associate  
+- Udemy: AWS Cloud Practitioner & Developer Associate  
 - AWS documentation  
 - Console labs + real service interactions  
 
@@ -95,6 +95,23 @@ Every day I follow this four-part workflow:
 - Digital Leader → ACE → ML Engineer  
 - Console labs  
 - BigQuery, IAM, Cloud Run, Storage, Vertex AI  
+
+### 5️⃣ **LeetCode / NeetCode**
+- Solve 1 problem daily (or 3–5 per week when workload is heavy)
+- Track solutions + approach in a clean folder structure
+
+---
+
+## 📘 Certifications Covered
+
+### **Amazon Web Services (AWS)**
+- AWS Cloud Practitioner (CLF-C02)  
+- AWS Developer Associate (DVA-C02)  
+
+### **Google Cloud Platform (GCP)**
+- Google Cloud Digital Leader  
+- Google Associate Cloud Engineer (ACE)  
+- Google Professional Machine Learning Engineer (PMLE)
 
 ---
 
