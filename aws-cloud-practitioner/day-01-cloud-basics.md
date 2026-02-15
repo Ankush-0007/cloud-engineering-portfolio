@@ -196,7 +196,7 @@ flowchart LR
 | Data             | You        | You  | You  | Provider |
 | Runtime          | You        | You  | Provider | Provider |
 | Middleware       | You        | You  | Provider | Provider |
-| Operating System | You        | You  | Provider | Provider |
+| O/S              | You        | You  | Provider | Provider |
 | Virtualization   | You        | Provider | Provider | Provider |
 | Servers          | You        | Provider | Provider | Provider |
 | Storage          | You        | Provider | Provider | Provider |

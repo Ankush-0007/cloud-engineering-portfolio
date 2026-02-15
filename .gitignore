@@ -1,0 +1,18 @@
+# Python junk
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# VS Code (optional)
+.vscode/
+
+# Tool caches (optional)
+.pytest_cache/
+.mypy_cache/
+ruff_cache/
