@@ -159,19 +159,19 @@ uvicorn main:app --reload
 
 ### Step 3 — Test endpoints (while server is running)
 
-# 3.1 Test root endpoint
+### 3.1 Test root endpoint
 ```bash
 # Why: confirms server is reachable and responding.
 curl -s http://127.0.0.1:8000/
 ```
 
-# 3.2 Confirm notes list is empty initially
+### 3.2 Confirm notes list is empty initially
 ```bash
 # Why: confirms /notes exists and storage starts empty.
 curl -s http://127.0.0.1:8000/notes
 ```
 
-# 3.3 Create a note (POST)
+### 3.3 Create a note (POST)
 ```bash
 # Why: proves server can accept JSON, validate it, and store it.
 curl -s -X POST http://127.0.0.1:8000/notes \
@@ -179,7 +179,7 @@ curl -s -X POST http://127.0.0.1:8000/notes \
   -d '{"title":"day2","content":"first note from FastAPI"}'
 ```
 
-# 3.4 Fetch notes again (GET)
+### 3.4 Fetch notes again (GET)
 ```bash
 # Why: proves POST changed server state (note is stored).
 curl -s http://127.0.0.1:8000/notes
